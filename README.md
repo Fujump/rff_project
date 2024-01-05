@@ -1,6 +1,8 @@
 # Project for STA303(2023 fall)
 ## Package Requirements
-`pip install -r requirements.txt`
+```bash
+pip install -r requirements.txt
+```
 ## File Descriptions
 The `rfflearn/` includes the basic codes for rff
 <br>

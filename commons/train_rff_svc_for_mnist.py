@@ -133,7 +133,7 @@ if __name__ == "__main__":
     ### The followings are not necessary if you copied 'rfflearn/' to the current
     ### directory or other directory which is included in the Python path.
     current_dir = os.path.dirname(__file__)
-    module_path = os.path.join(current_dir, "../../")
+    module_path = os.path.join(current_dir, "../utils/")
     sys.path.append(module_path)
 
     if   args["cpu"]: import rfflearn.cpu as rfflearn
